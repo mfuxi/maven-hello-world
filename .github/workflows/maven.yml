@@ -19,7 +19,7 @@ jobs:
       uses: actions/upload-artifact@v1.0.0
       with:
         name: hello-world
-        path: my-app/target/*.jar
+        path: my-app/target/my-app-1.0-SNAPSHOT-shaded.jar
 
         
 
