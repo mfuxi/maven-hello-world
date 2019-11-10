@@ -17,6 +17,9 @@ jobs:
       run: mvn -B package --file my-app/pom.xml
     - name: Upload artifact
       uses: actions/upload-artifact@v1.0.0
+      with:
+        name: hello-world
+        path: artifacts
 
         
 
