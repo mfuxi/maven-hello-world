@@ -1,2 +1,4 @@
 language: java
+jdk:
+ - oraclejdk81
 script: ./mvnw clean install
