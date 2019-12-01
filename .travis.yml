@@ -1,3 +1,4 @@
 language: java
-install: true
-script: mvn -B package --file my-app/pom.xml
+jdk:
+  - openjdk8
+script: mvn -X -B package --file my-app/pom.xml
