@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-alpine
+FROM openjdk:8-jre-slim-buster
 # copy application WAR (with libraries inside)
 COPY target/my-app-*.jar /app.jar
 
